@@ -16,6 +16,7 @@ export const fetchToken = async () => {
     return response.json();
   } catch (err) {
     throw err;
+    console.log("here error : " , err);
   }
 };
 
